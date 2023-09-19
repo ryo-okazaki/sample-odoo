@@ -1,5 +1,6 @@
 install:
 	docker-compose up -d --build
+	sleep 5
 	docker-compose exec -it odoo python3 /usr/bin/odoo -d odoo_db --db_host=db --db_port=5432 --db_user=odoo --db_password=password --stop-after-init -i base
 
 build:

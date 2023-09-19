@@ -9,7 +9,7 @@ services:
       - "8070:8069"
     volumes:
       - odoo-web-data:/var/lib/odoo
-      - ./odoo.conf:/etc/odoo/odoo.conf
+      - ./docker/odoo/odoo.conf:/etc/odoo/odoo.conf
       - ./odoo/addons:/mnt/extra-addons
     environment:
       - HOST=db

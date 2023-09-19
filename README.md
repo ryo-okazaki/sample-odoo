@@ -1,6 +1,6 @@
-# Sample Odoo for Custom Module development
+# Sample Odoo for Custom Module Development
 
-# ローカル環境構築手順
+## ローカル環境構築手順
 1. 以下のコマンドをsample_odooディレクトリで実行する
 ```
 make install
